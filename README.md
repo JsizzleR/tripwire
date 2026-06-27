@@ -1,7 +1,5 @@
 # tripwire
 
-> Working name — trivial to rename.
-
 **Catch silent failures in data-analysis steps.**
 
 A data operation can go wrong without raising a single error: a join quietly
