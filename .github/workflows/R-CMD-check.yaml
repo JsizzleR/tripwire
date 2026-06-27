@@ -32,7 +32,17 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
+          # yourhonor (Suggests) is GitHub-only and not yet published, so install
+          # the CRAN-available deps explicitly and let the judge tests skip in CI.
+          # When yourhonor is public, add `Remotes: <user>/yourhonor` and revert this.
+          dependencies: '"hard"'
+          extra-packages: |
+            any::rcmdcheck
+            any::cli
+            any::ellmer
+            any::mcptools
+            any::jsonlite
+            any::testthat
           needs: check
 
       - uses: r-lib/actions/check-r-package@v2
