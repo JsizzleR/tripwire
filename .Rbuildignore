@@ -6,3 +6,6 @@
 ^\.github$
 ^\.mcp\.json$
 ^\.posit$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

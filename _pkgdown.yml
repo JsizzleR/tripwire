@@ -1,0 +1,31 @@
+url: https://github.com/JsizzleR/tripwire
+
+template:
+  bootstrap: 5
+
+reference:
+- title: Deterministic checks (Tier 1)
+  contents:
+  - diagnose_join
+  - diagnose_missing
+  - diagnose_rowshape
+  - diagnose_types
+  - diagnose_duplicates
+- title: Report and render
+  contents:
+  - tw_report
+  - tw_html
+  - check_join
+- title: Calibrated judge (Tier 2)
+  contents:
+  - tw_judge_check
+  - tw_judge_trust
+- title: MCP server (live R session)
+  contents:
+  - tw_mcp_server
+  - tw_mcp_tools
+  - tw_check_join
+  - tw_check_data
+  - tw_check_transform
+  - tw_check_join_file
+  - tw_check_data_file
