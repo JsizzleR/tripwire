@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tripwire": {
+      "command": "Rscript",
+      "args": ["-e", "tripwire::tw_mcp_server()"]
+    }
+  }
+}

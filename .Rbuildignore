@@ -1,0 +1,8 @@
+^dev$
+^\.git$
+^\.gitignore$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^\.mcp\.json$
+^\.posit$

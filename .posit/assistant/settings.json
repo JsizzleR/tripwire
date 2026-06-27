@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tripwire": {
+      "type": "local",
+      "command": ["Rscript", "-e", "tripwire::tw_mcp_server()"],
+      "enabled": true
+    }
+  }
+}

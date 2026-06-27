@@ -1,0 +1,24 @@
+Package: tripwire
+Title: Catch Silent Failures in Data-Analysis Steps
+Version: 0.0.0.9000
+Authors@R:
+    person("Jay", "Clark", email = "placeholder@example.com", role = c("aut", "cre"))
+Description: Lightweight, dependency-free checks that flag when a data
+    operation quietly goes wrong -- a join that drops or multiplies rows,
+    a key mismatch, surprising missingness -- and return a structured,
+    auditable verdict suitable for surfacing in a user-facing "health
+    strip".
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    utils
+Suggests:
+    cli,
+    ellmer,
+    jsonlite,
+    mcptools,
+    testthat (>= 3.0.0),
+    yourhonor
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
