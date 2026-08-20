@@ -1,5 +1,5 @@
 # A zero-dependency demo. Run from anywhere:
-#   Rscript /Users/jsizl/Projects/tripwire/dev/demo.R
+#   Rscript dev/demo.R
 # It loads the package's R/ files directly (no install needed) and shows the
 # check catching a real, silent bug.
 

@@ -1,5 +1,5 @@
 # Health-strip demo. Run from anywhere:
-#   Rscript /Users/jsizl/Projects/tripwire/dev/demo-report.R
+#   Rscript dev/demo-report.R
 # Loads R/ directly (no install) and renders the health strip in colour.
 
 args <- commandArgs(FALSE)

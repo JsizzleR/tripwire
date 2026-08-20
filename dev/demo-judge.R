@@ -1,6 +1,6 @@
 # Tier-2 demo: a calibrated LLM judge as a gated tw_check, beside the Tier-1
 # deterministic checks. Run:
-#   Rscript /Users/jsizl/Projects/tripwire/dev/demo-judge.R
+#   Rscript dev/demo-judge.R
 #
 # The point: a join can be mechanically perfect (Tier-1 all green) while the
 # CONCLUSION drawn from it is wrong. A deterministic check can't catch that; a

@@ -2,7 +2,7 @@ Package: tripwire
 Title: Catch Silent Failures in Data-Analysis Steps
 Version: 0.0.0.9000
 Authors@R:
-    person("Jay", "Clark", email = "placeholder@example.com", role = c("aut", "cre"))
+    person("Jay", "Clark", email = "27960665+JsizzleR@users.noreply.github.com", role = c("aut", "cre"))
 Description: Lightweight, dependency-free checks that flag when a data
     operation quietly goes wrong -- a join that drops or multiplies rows,
     a key mismatch, surprising missingness -- and return a structured,
